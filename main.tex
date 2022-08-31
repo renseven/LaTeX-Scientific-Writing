@@ -1,0 +1,110 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{amsmath}
+\title{Hello World!}
+\author{Metehan Yıldırım}
+\date{July 24, 2022}
+
+\begin{document}
+
+\maketitle
+
+\section{Getting Started}
+
+\textbf{Hello World!} Today I am learning \LaTeX . \LaTeX  is a great program for writing math. I can write in line math such as \(a^2 + b^2 = c^2\). I can also give equations their own space:
+
+\hfill \( \gamma^2 + \theta^2 = \omega^2 \) \hfill (1) \\
+
+"Maxwell's equations" are named for James Clark Maxwell and are as follow: \\
+
+\hspace{50}
+$\vec{\nabla}.\vec{E} = \frac{\rho}{\epsilon_0}$ \hfill Gauss's Law \hspace{70} (2) \\
+
+
+\hspace{50}
+$\vec{\nabla}.\vec{B} = 0$ \hfill Gauss's Law for Magnetism \hspace{3} (3) \\
+
+\hspace{50}
+$\vec{\nabla}.\vec{E} = -\frac{\partial\vec{B}}{\partial{t}}$ \hfill Faraday's Law of Induction \hspace{4} (4) \\
+
+\hspace{50}
+$\vec{\nabla}.\vec{B} =  \mu_0\left(\epsilon_0\frac{\partial\vec{E}}{\partial{t}}+\vec{J}\right)$ \hfill Ampere's Circuital Law \hspace{20} (5) \\
+
+Equations 2, 3, 4, and 5 are some of the most important in Physics.
+
+\section{What about Matrix Equations?}
+\begin{gather*}\begin{pmatrix}
+    a_{11} &  a_{12} & \cdots & a_{1n} \\
+    a_{21} &  a_{22} & \cdots & a_{2n} \\
+    \vdots &  \vdots & \ddots & \vdots \\
+    a_{n1} &  a_{n2} & \cdots & a_{nn}
+\end{pmatrix}\begin{bmatrix}
+    \ v_{1} \\[0.3em]
+    \ v_{2} \\[0.3em]
+    \vdots \\[0.3em]
+    v_{n}
+\end{bmatrix} = \begin{matrix}
+    \ w_{1} \\
+    \ w_{2} \\
+    \vdots \\
+    w_{n}
+\end{matrix}
+\end{gather*}
+
+\clearpage
+\[\int\int\limits_V\int f(x, y, z)dV = F\]
+
+\[\frac{dx}{dy} = x' = \lim_{h \to 0}\frac{f(x+h]-f(x)}{h}\]
+
+$$|x|=
+\begin{cases}
+     -x,\hspace{0.70cm} if x<0\\
+    \hspace{0.25cm} x,\hspace{0.75cm} if x\geq 0
+\end{cases}$$
+
+\[F(x) = A_0 + \sum_{n=1}^{N}\left[A_n cos \left(\frac{2\pi nx}{P}\right)+B_n sin\left(\frac{2\pi nx}{P}\right)\right]\]
+
+\[ \sum_{n} \frac{1}{n^s} = \prod_p \frac{1}{1 - p^{-s}} \]
+
+\[m\ddot{x}+c\dot{x}+kx=F_{0}\sin(2\pi ft)\]
+
+\begin{equation*}
+\begin{split}
+f(x)& = x^2+3x+5x^2+8+6x\\
+ &= 6x^2+9x+8\\
+ &=x(6x+9)+8
+\end{split}
+\end{equation*}
+
+\[X=\frac{f_0}{k} \frac{1}{\sqrt{(1-r^2)^2+(2\zeta r)^2}}\]
+
+\[G_\mu_\nu\equiv R_\mu\nu - \frac{1}{2}Rg_\mu_ \nu=\frac{8\pi G}{c^4}T_\mu_\nu\]
+
+\[6CO_2 + 6H_2O \rightarrow C_6H_1_2O_6 + 6O_2\]
+
+\[SO_4^{2-} + Ba^2^+ \rightarrow BaSO_4\]
+
+\begin{gather*}\begin{pmatrix}
+    a_{11} &  a_{12} & \cdots & a_{1n} \\
+    a_{21} &  a_{22} & \cdots & a_{2n} \\
+    \vdots &  \vdots & \ddots & \vdots \\
+    a_{n1} &  a_{n2} & \cdots & a_{nn}
+\end{pmatrix}\begin{pmatrix}
+    \ v_{1} \\[0.3em]
+    \ v_{2} \\[0.3em]
+    \vdots \\[0.3em]
+    v_{n}
+\end{pmatrix} = \begin{pmatrix}
+    \ w_{1} \\
+    \ w_{2} \\
+    \vdots \\
+    w_{n}
+\end{pmatrix}
+\end{gather*}
+
+\[\frac{\partial u}{\partial t}+ (u.\nabla) u-\nu\nabla^2(u)-\nabla h \]
+
+\[\alpha A \beta B \gamma\Gamma \delta\Delta \pi\Pi \omega\Omega\]
+
+\end{document}
